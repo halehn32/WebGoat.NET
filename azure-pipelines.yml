@@ -20,8 +20,8 @@ steps:
     applicationType: 'dotnet'
     fortifyProjects: '**\*.sln'
     fortifyBuildId: 'webgoat221'
-    fortifyScanType: 'LocalScan'
-    runFortifyUpload: true
-    fortifyServerName: 'FortifyDemo'
-    fortifyApplicationName: 'webgoatdotnet'
-    fortifyApplicationVersion: 'v221'
+    fortifyScanType: 'ScanCentralScan'
+    scanCentralFortifyServerName: 'FortifyDemo'
+    scanCentralRunFortifyUpload: true
+    scanCentralFortifyApplicationName: 'webgoatdotnet'
+    scanCentralFortifyApplicationVersion: 'v221'
